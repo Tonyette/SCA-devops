@@ -1,0 +1,32 @@
+Devops Culture in an Organization.
+
+
+     Devops entails the development and operations team of an organization coming together to make efficient and scalable applications. This is to prevent a situation where apps work in testing environments then going on to crash at production. The aim is to provide the customers an awesome experience whenever they use the applications, this is achieved through the DevOps Pipelines which are Plan, Code, Build, test, release, deploy, monitor and operate. DevOps isn’t only about the tools used even though they are important it also takes the lifecycle of the application into consideration, the proper alignment of the tools and principles makes everything easier.
+    It involves 
+Continuous planning; Here the business values and customers interests are put into the plans for the products being made.
+Collaborative Development: The development team do not have to work alone they work in cooperation with the operations team too and code integration is continually done so as to know the limitations and problems in time.
+Continuous testing: This helps check the problem of application bottlenecks or problems faced at production. When testing is done in a continual process there will be reduction of time and cost.
+Continuous release and deployment: Manual processes are eliminated while automation takes the lead and this helps reduce errors and workload, with continual releases there is room for improvements and redesigns.
+Continuous monitoring: The availability and effectiveness of applications are understood before production which can help the team prevent errors.
+
+
+There are certain principles to follow when dealing with DevOps in an organization, these principles will help guide DevOps professionals on what to do..
+1. Develop and test in a production-like environment: This aims to testing applications against systems that are like production environments, this helps the team to know how the application will behave in production this gives an advantage of creating a well-tuned application.
+2. Deploying with repeatable, reliable processes: This helps the team follow an Agile software development process by incorporating automation, they get to create a smooth process for deploying applications. Automation aids continuous delivery of apps which leads to a reduced rate of failures at apps releases.
+3. Monitor and validate operational quality: Here, applications are monitored even before they have been deployed to production so metrics can be captured and analyzed, they provide warnings and reveal bottlenecks/problem areas of the application before they are out to customers. This metrics should be captured and communicated to business owners in a way that is understandable.
+4. Amplify Feedback loops: Feedbacks are important so it is vital that communication channels are available within the organization between development teams and operation teams also with business stakeholders, this helps improve work ethic as everyone gets to know what is wrong and will be able to make adjustments in time.
+   DevOps helps eliminate the problem faced by traditional IT professionals, reducing the issues of applications crashing at production, developers working in isolation thereby resulting in delay or application failures due to infrastructural needs like storage and redundancy needs.
+
+
+
+
+
+
+Tools used in DevOps.
+Following the pipelines in DevOps, there are various tools available to help make the processes easier and efficient.
+1. Plan- Communication apps that incorporate project management like Slack, Jira, Redmine,Trello and Gitlab to mention a few. This helps the team communicate while knowing tasks that are done and those on the work queue.
+2. Code- There is a need for a source repository for code to help monitor the codes changed or deployed, repositories keep track of the lifecycle of codes you can always revert to previous codes. Examples are Jenkins, Git and Bugzilla.
+3. Build- This helps with code packaging with dependencies and all, examples are Apache, Maven and Packer.
+4. Test- Here you can test applications in production-like environments tools used for this are Junit, Cucumber and Apache Jmeter.
+5. Release, Deploy and Operate- There are various ways to deploy your apps depending on the infrastructure you intend to use, you might like it managed or unmanaged where you have access to configuring all you need. Tools to consider are Kubernetes, Terraform, Nomad and Ansible to mention a few.
+6. Monitor- Here you check for metrics of your applications, examples of tools are Grafana, Prometheus, Nagios, InfluxDB and Fluentd to mention a few.
