@@ -1,0 +1,66 @@
+Level Two Assessment She Code Africa.
+
+
+ Describe Hubs, Switches And Routers.
+
+
+A Hub is a networking device that lets you communicate with other computers in your network through a cable. 
+A Switch is a device that allows network communication over multiple computers, it differs from a hub because it identifies the packet meant for individual computers.
+A router lets your computer connect with networks outside your home/office it connects you with the public internet and it has a table that knows the best paths to take for quicker connection.
+
+
+What is the OSI Model
+
+
+The OSI model which is the Open Systems Interconnection model is the standard by which computer systems follow to communicate. It is a way to breakdown how communication happens in computer systems.
+
+
+Explain the different layers of the OSI model.
+
+
+These layers are how information gets transferred amongst computers.
+
+
+1.) The Physical Layer: In this layer information is passed through cables( Fiber and Optical cables) Information is passed in bits that is in 1s and 0s before being sent to the next layer. This layer is responsible for transferring data from one node to another , it takes of bit synchronization and bit rate control that is taking charge of the rate/time at which bits are sent.
+
+
+2.) The Data Link Layer: This layer is responsible for ensuring that data packets get delivered to the appropriate destination while being error-free. Datalink layer can accomplish this through the mechanism of data encapsulation/framing; it adds bits to the beginning and end of a data packet while  including both the sender’s and receiver’s MAC address to the frame along with the time needed to make correct data transfer and the total checksum of the data in transport then using the MAC address to ensure the data packet gets to the intended destination.
+
+
+3. The Network Layer: This layer is responsible for data transfer that happens across different networks, it takes care of delivering packets to the destination address. It does this by including the destination and Source Ip address to the data frame and also figuring out the best routes to take for quality data delivery.
+
+
+4. The Transport layer: The transport layer is in charge of data being delivered appropriately to the right applications, since various applications communicate with servers it is vital that the servers know the application who wants to access it. Transport layer does this by including the port number of the sender to the header of the packet then ensures that the packet is delivered to the right port address.
+
+
+5.) The Session Layer: This layer is responsible for the opening and closing of communication across networks. It helps ensure that data synchronization is up to par so there are no errors or problems in the data delivered.
+
+
+6.) The Presentation layer:  It is also called the Translation layer because it is responsible for translating bits of data into human-readable format, it also ensures that devices understand the encryption text while communicating.
+
+
+7.) The Application Layer: This layer makes it possible for users to be able to access the information they enquired.
+
+
+What do you mean by the TCP/IP Model
+This is the network model employed in recent times that is the OSI model is just a logical model but the TCP/IP model was designed based on the protocols used today. The Abbreviation means Transmission Control Protocol/ Internet Protocol Model. It is made of only four layers as opposed to OSI;
+* Process/Application Layer
+* Host-to-Host/Application Layer
+* Internet Layer
+* Network Access/Link Layer.
+
+
+What do you mean by HTTP, TCP and UDP
+1. HTTP(S): This is an internet protocol that means Hypertext transfer protocol. It is used to maintain communication between web browsers and clients on the internet, HTTPs is its secured version; it provides encryption for communication that requires further security like sign-ins, authentication and authorization. It uses SSL( Secure Socket Layer).
+2. TCP: Transmission Control Protocol is responsible for the acknowledgment of received packets ensuring that there are no errors and resend lost packets.
+3. UDP: User Datagram Protocol is a simple and scalable protocol that doesn’t do acknowledgement of packets so it is suitable for weak networks and streaming.
+What is a Firewall?
+A firewall is a network security device used to monitor incoming and outgoing traffic in a network then based on some rules it rejects, accepts or drops a specific traffic. Firewall is used to secure the network such as avoiding certain traffic into a network, it works with certain parameters like the direction of the traffic(Ingress/Egress), Source/destination address or tags, action  to take(allow or reject) and ports.
+Explain DNS
+DNS means Domain Name System is a service that matches an IP address to a host name. Clients and servers recognize each other through IP addresses, applications get their intended information only because the Ip addresses are accessible but numbers are difficult to remember for humans so there was a need for host names. This need gave birth to the method of mapping IP addresses to host names. There are servers for this purpose they check through their table when being queried for a host name then they return the appropriate address.
+Explain latency 
+Latency is the time it takes data to transfer from one network to the other. It is how long it takes for a client to receive data from the server. It is measured in high or low frequency, Low means great quality while high means poor quality.
+Explain Caching
+Caching is how a system can store data in a temporary storage for easy access. To help improve the experience of users on the internet a caching storage can be set in place so that when a user makes a query that has been made before the data can be transmitted from the temporary storage.
+Explain Wireless Access Point.
+This is a wireless Local Area Network Point that can connect two or more devices to the internet. It is used for WI-FI.
