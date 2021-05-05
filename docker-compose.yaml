@@ -1,0 +1,21 @@
+version: '3'
+services: 
+  kibana:
+    image: kibana:7.12.1  
+    ports: 
+      - 5601:5601
+
+  mysql:  
+    image: mysql:latest
+    environment: 
+      MYSQL_ROOT_PASSWORD: password
+    ports: 
+      - 3306:3306
+    volumes: 
+      - my-datavolume:/var/lib/mysql
+  nginx:
+    image: nginx:1.20.0-alpine
+    ports: 
+      - 80:80
+volumes: 
+  my-datavolume: 
